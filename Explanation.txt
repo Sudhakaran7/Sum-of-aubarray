@@ -1,0 +1,48 @@
+Given an array, Find the sum of minimum of every subarray of that given array.
+Consrtaint: 
+Input description:
+n size of the array, in next line, n elements of the array
+(1<n<1000)
+
+Output Description:
+the sum of minimum of every subarray of that given array
+
+Sample Input:
+4
+3 6 5 2
+
+Sample Output:
+33
+
+Explanation:
+subarrays of thegiven array are (3),(6),(5),(2),(3,6),(6,5),(5,2),(3,6,5),(6,5,2),(3,6,5,2)
+the minimum of every subarray are 3,6,5,2,3,5,2,3,2,2=33
+so the output is 33
+
+Sample Input:
+3
+1 2 3
+
+Sample Output:
+10
+
+Sample Input:
+7
+8 3 5 2 9 5 3
+
+Sample Output:
+85
+
+Sample Input:
+9
+1 2 3 4 5 6 7 8 9
+
+Sample Output:
+165
+
+Sample Input:
+6
+32 56 78 99 101 111
+
+Sample Output:
+1394
